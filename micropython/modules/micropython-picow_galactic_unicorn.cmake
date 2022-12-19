@@ -78,7 +78,7 @@ target_compile_definitions(usermod_ulab INTERFACE
         # the object implementation is numpythonic, but requires more space
         ULAB_HAS_DTYPE_OBJECT=0
 # the ndarray binary operators
-        NDARRAY_HAS_BINARY_OPS=0
+        NDARRAY_HAS_BINARY_OPS=1
 # Firmware size can be reduced at the expense of speed by using function
         # pointers in iterations. For each operator, the function pointer saves around
         # 2 kB in the two-dimensional case, and around 4 kB in the four-dimensional case.
