@@ -47,7 +47,7 @@ include(pimoroni_bus/micropython)
 # LEDs & Matrices
 #include(galactic_unicorn/micropython)
 
-include(micropython-common)
+# include(micropython-common)
 
 function(enable_ulab)
     include(ulab/code/micropython)
